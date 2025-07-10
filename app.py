@@ -61,10 +61,7 @@ st.pyplot(fig4)
 bins = [0, 20, 40, 60, 80, 100]
 labels = ['0-20', '21-40', '41-60', '61-80', '81+']
 filtered_df['Age_Group'] = pd.cut(filtered_df['Age'], bins=bins, labels=labels, right=False)
-avg_survival_by_age = filtered_df.groupby('Age_Group')['Survival_Years'].mean()git remote add origin https://github.com/AgcollinsO/cancer-analysis-dashboard.git
-git branch -M main
-git push -u origin main
-
+avg_survival_by_age = filtered_df.groupby('Age_Group')['Survival_Years'].mean()
 fig5, ax5 = plt.subplots()
 avg_survival_by_age.plot(kind='bar', color='lightgreen', ax=ax5)
 ax5.set_title('Average Survival Years by Age Group')
