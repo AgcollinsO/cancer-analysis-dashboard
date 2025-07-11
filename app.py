@@ -81,7 +81,6 @@ ax4.set_title('Correlation Matrix')
 st.pyplot(fig4)
 
 # 5. Average Survival by Age Group
-# Create Age_Group if not present
 bins = [0, 20, 40, 60, 80, 100]
 labels = ['0-20', '21-40', '41-60', '61-80', '81+']
 filtered_df['Age_Group'] = pd.cut(filtered_df['Age'], bins=bins, labels=labels, right=False)
