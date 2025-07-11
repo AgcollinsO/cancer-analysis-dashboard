@@ -2,6 +2,8 @@
 
 This project is an **interactive data analysis dashboard** built with **Streamlit** to explore cancer-related insights using a synthetic dataset. It aims to uncover trends and patterns in treatment cost, survival years, severity, and lifestyle impacts.
 
+![Global Cancer Analysis Screenshoot1](https://github.com/user-attachments/assets/9d4668b7-2233-4e79-84ad-61ca123a352f)
+
 ---
 
 ## 📊 Key Features
@@ -13,7 +15,26 @@ This project is an **interactive data analysis dashboard** built with **Streamli
 - **Severity Drivers:** Multivariate correlation to identify what contributes most to high severity
 - **Healthcare Gap:** Identify regions with high severity but low treatment costs
 
+- ## 🚀 Live Demo
+[Launch on Streamlit Cloud]([https://cancer-analysis-dashboard.streamlit.app](https://cancer-analysis-dashboard-57tfh5fasjeenahqvd5b3e.streamlit.app/)) 
+
+## 📁 Project Structure
+- `app.py` – main Streamlit app
+- `global_cancer_patients_2015_2024.csv` – cleaned dataset
+- `requirements.txt` – dependencies
+- `main project codes.ipynb` – exploratory analysis
+
+## 📊 Insights & Findings
+- A line chart showed a steady increase in global cancer cases from 2015 to 2024.
+- Certain cancer types, particularly Liver, Pancreatic, Brain, Lung, and Esophageal — are associated with significantly higher average treatment expenses.
+- Advanced cancer stages typically require more aggressive and prolonged therapy.
+- Patients aged 0–20 had the highest average survival years post-diagnosis, while patients aged 81+ had the lowest.
 ---
+
+## 🧪 Future Improvements
+- Add country-specific deep dives
+- Integrate additional datasets (e.g., air quality, GDP)
+- Add user-upload feature for custom datasets
 
 ## 🧠 Hypotheses Tested
 
@@ -34,6 +55,11 @@ This project is an **interactive data analysis dashboard** built with **Streamli
 - **Git & GitHub**
 
 ---
+
+## 👤 Author
+**Agwu Collins Obinna**  
+📧 collinsobinna68@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/agwu-collins-90087b366)
 
 ## 🚀 How to Run
 
