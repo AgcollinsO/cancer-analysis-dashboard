@@ -6,6 +6,9 @@ This project is an **interactive data analysis dashboard** built with **Streamli
 
 ---
 
+![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue)
+![Built with Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-brightgreen)
+![Status](https://img.shields.io/badge/Status-Live-success)
 🎯 **Live App**: [Launch Streamlit Dashboard](https://cancer-analysis-dashboard-57tfh5fasjeenahqvd5b3e.streamlit.app/)
 
 ✍️ **Medium Article**: [Read the full write-up on Medium](https://medium.com/@collinsobinna68/title-uncovering-patterns-in-global-cancer-data-a-visual-analytics-approach-2015-2024-8203f8b6ed38)
