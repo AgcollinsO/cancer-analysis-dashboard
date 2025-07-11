@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+
 # Load dataset
 # Make sure the CSV is in the same folder as this script
 df = pd.read_csv('global_cancer_patients_2015_2024.csv')
@@ -10,6 +11,11 @@ df = pd.read_csv('global_cancer_patients_2015_2024.csv')
 # Set page config
 st.set_page_config(page_title="Cancer Data Dashboard", layout="wide")
 st.title("🌍 Global Cancer Data Analysis Dashboard")
+
+st.markdown("""
+This interactive dashboard presents insights from global cancer patient data (2015–2024).  
+Explore treatment costs, survival trends, cancer types, and severity scores across countries and age groups.
+""")
 
 # Sidebar filters
 st.sidebar.header("Filter Options")
