@@ -6,6 +6,17 @@ This project is an **interactive data analysis dashboard** built with **Streamli
 
 ---
 
+🎯 **Live App**: [Launch Streamlit Dashboard](https://cancer-analysis-dashboard-57tfh5fasjeenahqvd5b3e.streamlit.app/)
+
+✍️ **Medium Article**: [Read the full write-up on Medium](https://medium.com/@collinsobinna68/title-uncovering-patterns-in-global-cancer-data-a-visual-analytics-approach-2015-2024-8203f8b6ed38)
+
+🔗 **LinkedIn Post**: [See project announcement on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7349430965791793152/) 
+
+👤 **Author Profile**: [Agwu Collins Obinna – LinkedIn](https://www.linkedin.com/in/agwu-collins-90087b366)
+
+---
+
+
 ## 📊 Key Features
 
 - **Trend Analysis:** Yearly trend of cancer cases
